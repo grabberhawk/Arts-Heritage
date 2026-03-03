@@ -29,10 +29,18 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
         </a>
 
         <Button
+          asChild
           variant="outline"
           className="mt-4 border-[#2C2C2C] text-[#2C2C2C]"
         >
-          Join
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe2TxYdHI8fUB6TJHKQFTc4FX1AXIklhbvOw17KJqc7qPaBLw/viewform?usp=publish-editor"
+            target="_blank"
+            rel="noreferrer"
+            onClick={onClose}
+          >
+            Join as Artist
+          </a>
         </Button>
       </div>
     </div>
