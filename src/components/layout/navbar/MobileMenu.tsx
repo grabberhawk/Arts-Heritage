@@ -15,7 +15,7 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
       }`}
     >
       <div className="flex flex-col px-6 py-8 space-y-6 font-serif text-lg">
-        <a href="#explore" onClick={onClose} className="border-b pb-3">
+        <a href="#featured-artworks" onClick={onClose} className="border-b pb-3">
           Explore
         </a>
         <a href="#story" onClick={onClose} className="border-b pb-3">

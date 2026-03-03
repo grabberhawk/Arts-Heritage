@@ -22,7 +22,7 @@ export default function Featured() {
   };
 
   return (
-    <section className="bg-[#F5EFE6] py-24 md:py-32">
+    <section id="featured-artworks" className="bg-[#F5EFE6] py-24 md:py-32">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
 
         <div className="text-center mb-16">

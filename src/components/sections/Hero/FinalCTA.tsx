@@ -26,8 +26,11 @@ export default function FinalCTA() {
           across regions and generations.
         </p>
 
-        <Button className="mt-4 bg-[#8B1E3F] hover:bg-[#721834] text-white px-10 py-5 tracking-wide shadow-md">
-          Explore the Collection
+        <Button
+          asChild
+          className="mt-4 bg-[#8B1E3F] hover:bg-[#721834] text-white px-10 py-5 tracking-wide shadow-md"
+        >
+          <a href="#featured-artworks">Explore the Collection</a>
         </Button>
 
       </div>
