@@ -16,10 +16,11 @@ export default function Footer() {
           {/* LEFT */}
           <div className="space-y-3 max-w-md">
             <h3 className="font-serif text-2xl text-white">
-              Majusha Collective
+              Parampara Arts
             </h3>
             <p className="text-sm text-[#D5C8B2] leading-relaxed">
-              Bringing authentic Majusha art from local artisans to a global audience.
+              Preserving India’s Living Traditions
+              
             </p>
           </div>
 
@@ -42,7 +43,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-3 text-xs text-[#BFAE95]">
               <Instagram size={16} />
-              <span>@majusha.collective</span>
+              <span>@parampara.arts</span>
             </div>
 
           </div>
@@ -51,7 +52,7 @@ export default function Footer() {
 
         {/* Bottom Divider */}
         <div className="mt-10 pt-6 border-t border-[#5C4636] text-center text-xs text-[#A3927B]">
-          © {new Date().getFullYear()} Majusha Collective. All rights reserved.
+          © {new Date().getFullYear()} Parampara Arts. All rights reserved.
         </div>
 
       </div>

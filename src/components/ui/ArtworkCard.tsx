@@ -12,9 +12,8 @@ export default function ArtworkCard({
   image,
 }: Artwork) {
   return (
-  <div className="group text-center min-w-[85%] sm:min-w-[70%] md:min-w-0 snap-center">
-
-      <div className="relative inline-block">
+    <div className="group text-center shrink-0 w-full snap-start">
+      <div className="relative inline-block w-full">
         <div className="absolute inset-0 translate-x-3 translate-y-3 bg-[#E8DFD1]"></div>
 
         <div className="relative border-2 border-[#C9B58C] bg-white p-3 shadow-[0_25px_50px_rgba(0,0,0,0.08)]">
@@ -22,7 +21,7 @@ export default function ArtworkCard({
             <img
               src={image}
               alt={title}
-              className="object-cover w-70 md:w-75 aspect-4/5 group-hover:scale-105 transition-transform duration-700"
+              className="object-cover w-full aspect-4/5 transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
@@ -41,7 +40,6 @@ export default function ArtworkCard({
           ₹ {price.toLocaleString()}
         </p>
       </div>
-
     </div>
   );
 }

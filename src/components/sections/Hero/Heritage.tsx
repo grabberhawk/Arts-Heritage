@@ -10,7 +10,7 @@ export default function Heritage() {
 
         {/* Heading */}
         <h2 className="font-serif text-2xl md:text-3xl text-[#2C2C2C] mb-4">
-          Rooted in Bhagalpur, Bihar
+          India’s Living Folk Traditions
         </h2>
 
         {/* Divider */}
@@ -20,10 +20,12 @@ export default function Heritage() {
           <div className="h-px w-8 bg-[#C9B58C]"></div>
         </div>
 
-        {/* Short Description */}
+        {/* Description */}
         <p className="text-sm md:text-base text-[#4A4A4A] max-w-2xl mx-auto leading-relaxed">
-          Majusha art narrates the legendary tale of Bihula and Mansa,
-          carrying generations of devotion, craftsmanship, and cultural pride.
+          From the narrative scrolls of Manjusha to the intricate lines of Madhubani,
+          from Gond’s vibrant symbolism to the mythological depth of Pattachitra —
+          India’s folk arts carry centuries of memory, ritual, and craftsmanship.
+          Parampara Arts curates these living traditions for a global audience.
         </p>
 
       </div>
