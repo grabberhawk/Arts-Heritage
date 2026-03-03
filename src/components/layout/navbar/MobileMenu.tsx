@@ -15,7 +15,7 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
       }`}
     >
       <div className="flex flex-col px-6 py-8 space-y-6 font-serif text-lg">
-        <a href="#explore" onClick={onClose} className="border-b pb-3">
+        <a href="#featured-artworks" onClick={onClose} className="border-b pb-3">
           Explore
         </a>
         <a href="#story" onClick={onClose} className="border-b pb-3">
@@ -29,10 +29,18 @@ export default function MobileMenu({ isOpen, onClose }: Props) {
         </a>
 
         <Button
+          asChild
           variant="outline"
           className="mt-4 border-[#2C2C2C] text-[#2C2C2C]"
         >
-          Join
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe2TxYdHI8fUB6TJHKQFTc4FX1AXIklhbvOw17KJqc7qPaBLw/viewform?usp=publish-editor"
+            target="_blank"
+            rel="noreferrer"
+            onClick={onClose}
+          >
+            Join as Artist
+          </a>
         </Button>
       </div>
     </div>

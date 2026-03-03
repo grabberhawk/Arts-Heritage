@@ -28,7 +28,7 @@ export default function Footer() {
           <div className="flex flex-col items-start md:items-end gap-4">
 
             <div className="flex items-center gap-6 text-sm tracking-wide">
-              <a href="#" className="hover:text-[#C9B58C] transition-colors">
+              <a href="#featured-artworks" className="hover:text-[#C9B58C] transition-colors">
                 Explore
               </a>
               <span className="text-[#7A6F5A]">|</span>

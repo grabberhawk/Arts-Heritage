@@ -32,8 +32,11 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
-              <Button className="bg-[#8B1E3F] hover:bg-[#721834] text-white px-8 py-5 text-sm tracking-widest shadow-md">
-                Explore Collection
+              <Button
+                asChild
+                className="bg-[#8B1E3F] hover:bg-[#721834] text-white px-8 py-5 text-sm tracking-widest shadow-md"
+              >
+                <a href="#featured-artworks">Explore Collection</a>
               </Button>
 
               <Button
