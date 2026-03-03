@@ -21,11 +21,18 @@ export default function NavLinks() {
 </a>
 
       <Button
-  variant="outline"
-  className="ml-4 border-[#2C2C2C] text-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-white transition-all duration-300"
->
-  Join
-</Button>
+        asChild
+        variant="outline"
+        className="ml-4 border-[#2C2C2C] text-[#2C2C2C] hover:bg-[#2C2C2C] hover:text-white transition-all duration-300"
+      >
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe2TxYdHI8fUB6TJHKQFTc4FX1AXIklhbvOw17KJqc7qPaBLw/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Join as Artist
+        </a>
+      </Button>
     </div>
   );
 }
